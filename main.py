@@ -11,13 +11,14 @@ import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 import uvicorn
-nltk.download('omw-1.4')
-nltk.download("punkt")
-nltk.download("wordnet")
 
 from classes.funcs import Funcs
 
 # from classes.q2a import BertQuestionAnswering
+
+nltk.download('omw-1.4')
+nltk.download("punkt")
+nltk.download("wordnet")
 
 lemmatizer = WordNetLemmatizer()
 
@@ -35,7 +36,7 @@ with open("services/config.json") as f:
 @app.post("/chatbot_response")
 async def chatbot_response(request: Request):
     data = await request.json()
-    lang = "en",
+    lang = data["lang"]
     uid = data["uid"]
     bot_name = data["bot_name"]
     user_message = data["user_message"]

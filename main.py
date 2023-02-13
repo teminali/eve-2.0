@@ -211,7 +211,7 @@ def get_response(
                     print(e)
                     result = error_msg
 
-            if result == "":
+            if tag == "confused" or tag == "to_do_with_previous" or result == "":
                 # let's start by extracting the last 20 messages but keep the line breaks between messages/lines
                 with open(f"knowledge_base/{token}/chat_logs/{uid}.txt", "r") as f:
                     lines = f.readlines()

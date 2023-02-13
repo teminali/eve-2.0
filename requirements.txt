@@ -51,7 +51,7 @@ munkres==1.1.4
 nltk
 numpy
 openai==0.26.5
-pandas==1.5.2
+pandas
 Pillow==9.3.0
 pipreqs==0.4.11
 protobuf==3.20.3

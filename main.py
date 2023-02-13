@@ -75,7 +75,7 @@ async def chatbot_response(request: Request):
         return {"response": res}
     except Exception as e:
         print(e)
-        return {"response": ""}
+        return {"response": "", "error": str(e)}
 
 
 @app.post("/upload_knowledge_base")

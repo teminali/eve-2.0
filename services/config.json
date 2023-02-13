@@ -1,0 +1,23 @@
+{
+   "openai_key":"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",
+   "tokens":[
+      "sky-36a6ac9b-3bf4-444e-90bf-f68e11589391",
+      "sky-922ea0ce-98a4-465c-9d06-ac86b1b163ed",
+      "sky-9c1b0b5e-1b9c-4b9c-8c1b-5e1b9c4b9c8c",
+      "sky-db58292a-c5fb-410c-8884-4be8c7ed05ad",
+      "sky-ecb5b5b5-5b5b-5b5b-5b5b-5b5b5b5b5b5b"
+   ],
+   "placeholders": [
+      "[options]",
+      "[bot_name]",
+      "[username]",
+      "[company_name]",
+      "[company_description]",
+      "[company_website]",
+      "[company_address]",
+      "[news]",
+      "[promo]",
+      "[company_services]"
+
+   ]
+}

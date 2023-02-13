@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag":  "what_is",
+        "patterns": [
+            "What is Telecom?",
+            "What is a Vodacom?",
+            "What is the M-pesa?",
+            "What is the definition Airtime?",
+            "What is the meaning of bundle?",
+            "What is the definition Cheka?"
+          ],
+        "responses": [
+            "Telecom is a company that provides telecommunication services to its customers.",
+            "Vodacom is a company that provides telecommunication services to its customers.",
+            "M-pesa is a company that provides telecommunication services to its customers.",
+            "Tigo is a company that provides telecommunication services to its customers.",
+            "Tigo Pesa is a company that provides telecommunication services to its customers.",
+            "Airtime is a company that provides telecommunication services to its customers.",
+            "Bundle is a company that provides telecommunication services to its customers.",
+            "Cheka is Vodacom's bundle that provides telecommunication services to its customers."
+
+          ],
+        "context": [""]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, how can I help you today?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": ["Thank you for choosing our telecom service! Have a great day."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["You're welcome! Let me know if there's anything else I can help with."],
+      "context": [""]
+    },
+    {
+      "tag": "service_issues",
+      "patterns": [
+        "My token is not working",
+        "I have lost my token",
+        "I am having trouble with my service",
+        "Service problem"
+      ],
+      "responses": ["I'm sorry to hear that. Can you please provide more details about the issue you are facing with your service?"],
+      "context": ["service_issues_details"]
+    },
+    {
+      "tag": "service_issues_details",
+      "patterns": [],
+      "responses": [
+        "Thank you for the information. I will do my best to help resolve the issue."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "billing",
+      "patterns": [
+        "I have a billing question",
+        "Billing inquiry",
+        "My bill is incorrect",
+        "Billing problem"
+      ],
+      "responses": [
+        "Sure, I'd be happy to help with that. Can you please provide more information about your billing issue?"
+      ],
+      "context": ["billing_details"]
+    },
+    {
+      "tag": "billing_details",
+      "patterns": [],
+      "responses": [
+        "Thank you for the information. Let me take a look and see what can be done to resolve the issue."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "answer",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand what you were asking. Can you please rephrase or provide more information?"
+      ],
+      "context": [""]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+2023-02-12 20:16:27.599736 - human: hello
+2023-02-12 20:16:27.599774 - bot: Good Good evening. How may I help you today?
+2023-02-12 20:16:44.935614 - human: i need help
+2023-02-12 20:16:44.935626 - bot: Here is what you can do: [options]
+2023-02-12 20:16:59.344621 - human: cool
+2023-02-12 20:16:59.344633 - bot: Glad you think so! Is there anything else I can help with? HESLB
+2023-02-12 20:24:00.969131 - human: hello there
+2023-02-12 20:24:00.969153 - bot: Hey there!, Good evening. How can I be of assistance today?
+2023-02-12 20:24:26.278741 - human: you tell me
+2023-02-12 20:24:26.278753 - bot: Hi! Is there anything I can help with today?
+2023-02-12 20:24:42.528308 - human: what can you help me with
+2023-02-12 20:24:42.528320 - bot: My role is to assist you with any information or questions you have about HESLB. I am here to make your experience as easy and stress-free as possible.
+2023-02-12 20:25:09.984015 - human: sounds cool
+2023-02-12 20:25:09.984027 - bot: Glad you think so! Is there anything else I can help with HESLB?
+2023-02-12 20:28:47.427156 - human: what choices do i have
+2023-02-12 20:28:47.427168 - bot: Here are the options: [options]
+2023-02-12 20:29:00.292407 - human: what else?
+2023-02-12 20:29:00.292419 - bot: Just ask to and find out
+2023-02-12 20:29:16.001615 - human: what is the weather now
+2023-02-12 20:29:16.001626 - bot: The weather right now is [weather].
+2023-02-12 20:54:28.551906 - human: what time is it now?
+2023-02-12 20:54:28.551919 - bot: The time is 20:54:28. Is there anything else I can help you with?
+2023-02-12 20:54:36.911635 - human: date?
+2023-02-12 20:54:36.911646 - bot: Sure, today is 12/02/2023. What can I do for you?
+2023-02-12 20:54:48.669210 - human: when is today?
+2023-02-12 20:54:48.669224 - bot: Today is Sunday. Can I help you with anything else?
+2023-02-12 20:55:01.904091 - human: That was amaizing
+2023-02-12 20:55:01.904102 - bot: Absolutely, that's right!
+2023-02-12 20:55:20.464191 - human: you think you are smart?
+2023-02-12 20:55:20.464202 - bot: I understand that you may be frustrated, but please refrain from using insulting language.
+2023-02-12 21:13:24.771692 - human: I'm sorry
+2023-02-12 21:13:24.771705 - bot: Apology accepted. How may I be of assistance?
+2023-02-12 21:13:58.264172 - human: what more can you do
+2023-02-12 21:13:58.264183 - bot: My main goal is to assist you with any information or questions you have about HESLB. I am here to provide you with a positive and stress-free experience.
+2023-02-12 21:14:20.788097 - human: what specifically you can do?
+2023-02-12 21:14:20.788107 - bot: My main goal is to assist you with any information or questions you have about HESLB. I am here to provide you with a positive and stress-free experience.
+2023-02-12 21:25:21.697600 - human: you just repeated yourself
+2023-02-12 21:25:21.697619 - bot: My apologies for repeating myself. Let me know how else I can assist you.
+2023-02-12 21:26:28.792085 - human: what is HESLB
+2023-02-12 21:26:28.792113 - bot: HESLB stands for Higher Education Students' Loans Board. It is an organization in Tanzania that provides access to loans and financial assistance to students and schools.
+2023-02-12 21:27:05.141790 - human: can you assist me in applying for load?
+2023-02-12 21:27:05.141801 - bot: Let's find out together, I'm curious myself, about my capabilities
+2023-02-12 21:27:29.403130 - human: is that so?
+2023-02-12 21:27:29.403141 - bot: Positive, that's right!
+2023-02-12 21:27:39.690613 - human: wow
+2023-02-12 21:27:39.690623 - bot: I'm glad you're enjoying our conversation! What else do you need help with today?
+2023-02-12 21:27:58.022592 - human: so sound like human?
+2023-02-12 21:27:58.022602 - bot: Nothing like a good laugh to brighten up the day!
+2023-02-12 21:28:20.502741 - human: so you got jokes too, what you got?
+2023-02-12 21:28:20.502751 - bot: My purpose is to provide quick and accurate information about HESLB and answer any questions you may have. I'm here to help!
+2023-02-12 21:28:34.716489 - human: tell me a joke
+2023-02-12 21:28:34.716499 - bot: Why do potatoes make good detectives? Because they keep their eyes peeled!
+2023-02-13 00:12:45.036386 - human: hi
+2023-02-13 00:12:45.036402 - bot: [wakati_wa_siku]! Ninaweza kukusaidia vipi leo?

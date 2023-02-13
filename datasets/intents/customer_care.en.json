@@ -35,15 +35,16 @@
 {
 "tag":"about_company",
 "patterns":[
-"tell me about [company_name]",
-"what is [company_name] all about",
-"give me information about [company_name]",
-"describe [company_name]",
-"what does [company_name] do",
-"what is [company_name]'s mission"
+"What is HELSB",
+"tell me about HELSB",
+"what is HELSB all about",
+"give me information about HELSB",
+"describe HELSB",
+"what does HELSB do",
+"what is HELSB's mission"
 ],
          "responses":[
-            "[company_description]."
+            "[company_description]"
          ],
          "context":""
       },

@@ -16,6 +16,7 @@ from nltk.stem import WordNetLemmatizer
 import uvicorn
 
 from classes.funcs import Funcs
+
 # from classes.q2a import BertQuestionAnswering
 
 lemmatizer = WordNetLemmatizer()
@@ -29,6 +30,7 @@ funcs = Funcs()
 with open("services/config.json") as f:
     config = json.load(f)
     valid_tokens = config["tokens"]
+
 
 @app.post("/chatbot_response")
 async def chatbot_response(request: Request):

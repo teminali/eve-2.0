@@ -1,2 +1,6 @@
 2023-02-13 12:12:51.865065 - human: hello there
 2023-02-13 12:12:51.865079 - bot: Aww, wewe ni mzuri sana!
+2023-02-13 12:44:03.738544 - human: hello there
+2023-02-13 12:44:03.738558 - bot: Hey there!, Good afternoon. How can I be of assistance today?
+2023-02-13 12:49:01.193272 - human: hello there
+2023-02-13 12:49:01.193283 - bot: Good afternoon! How can I assist you today?

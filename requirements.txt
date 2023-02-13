@@ -1,12 +1,8 @@
 datetime
-numpy
 fastapi
-nltk
-keras
-uvicorn
-tensorflow==2.11.0
-keras
-numpy
-nltk
+nltk==3.8.1
+keras==2.11.0
+uvicorn==0.20.0
+tensorflow==2.5.0
 openai
 

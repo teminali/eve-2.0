@@ -11,6 +11,9 @@ import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 import uvicorn
+nltk.download('omw-1.4')
+nltk.download("punkt")
+nltk.download("wordnet")
 
 from classes.funcs import Funcs
 

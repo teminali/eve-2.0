@@ -1,21 +1,12 @@
 datetime
-os
-random
-shutil
 numpy
-pickle
 fastapi
-Jinja2Templates
-HTMLResponse
 nltk
 keras
-WordNetLemmatizer
 uvicorn
 tensorflow==2.10.0
 keras
 numpy
 nltk
-pickle
 openai
-json
 

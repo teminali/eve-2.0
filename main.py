@@ -21,7 +21,6 @@ from classes.funcs import Funcs
 lemmatizer = WordNetLemmatizer()
 
 app = FastAPI()
-templates = Jinja2Templates(directory="templates")
 
 time_zone = "Africa/Nairobi"
 funcs = Funcs()
@@ -30,12 +29,6 @@ funcs = Funcs()
 with open("services/config.json") as f:
     config = json.load(f)
     valid_tokens = config["tokens"]
-
-
-@app.get("/", response_class=HTMLResponse)
-async def home(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
-
 
 @app.post("/chatbot_response")
 async def chatbot_response(request: Request):

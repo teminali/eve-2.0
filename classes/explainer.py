@@ -7,7 +7,7 @@ class Explainer:
         # open config.json file and load api key
         with open("services/config.json") as f:
             config = json.load(f)
-            key = config["openai_key"]
+            key = "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"
 
         openai.api_key = key
         self.start_sequence = "\nAI:"

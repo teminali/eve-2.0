@@ -16,7 +16,7 @@ from nltk.stem import WordNetLemmatizer
 import uvicorn
 
 from classes.funcs import Funcs
-from classes.q2a import BertQuestionAnswering
+# from classes.q2a import BertQuestionAnswering
 
 lemmatizer = WordNetLemmatizer()
 
@@ -166,7 +166,7 @@ def get_response(
         industry
 ):
     global result
-    q2a = BertQuestionAnswering(knowledge_base=f'knowledge_base/{token}', uid=uid)
+    # q2a = BertQuestionAnswering(knowledge_base=f'knowledge_base/{token}', uid=uid)
 
     used_model = "margarita"
 
@@ -208,7 +208,8 @@ def get_response(
                     error_msg = "Kwa sasa, seva zetu zina ucheleweshaji. Tunasikitika kwa ucheleweshaji huo na tunashukuru " \
                                 "kwa subira yako. "
                 try:
-                    result = q2a.answer_question(question)
+                    # result = q2a.answer_question(question)
+                    result = error_msg
                     if result == "":
                         result = error_msg
                 except Exception as e:

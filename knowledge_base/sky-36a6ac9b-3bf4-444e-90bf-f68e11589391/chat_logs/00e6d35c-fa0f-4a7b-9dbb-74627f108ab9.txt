@@ -1,0 +1,2 @@
+2023-02-13 12:12:51.865065 - human: hello there
+2023-02-13 12:12:51.865079 - bot: Aww, wewe ni mzuri sana!

@@ -3,13 +3,10 @@ import datetime
 import os
 import random
 import shutil
-
 import numpy as np
 import pickle
 import json
 from fastapi import FastAPI, Request
-from fastapi.templating import Jinja2Templates
-from fastapi.responses import HTMLResponse
 import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer

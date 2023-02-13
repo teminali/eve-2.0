@@ -35,7 +35,7 @@ with open("services/config.json") as f:
 @app.post("/chatbot_response")
 async def chatbot_response(request: Request):
     data = await request.json()
-    lang = data["lang"]
+    lang = "en",
     uid = data["uid"]
     bot_name = data["bot_name"]
     user_message = data["user_message"]

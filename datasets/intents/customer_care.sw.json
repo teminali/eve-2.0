@@ -1730,8 +1730,5 @@
          ],
          "context":""
       }
-   ],
-   "id": "company_info",
-   "specVersion": "0.0.1",
-   "states": ["company_info"]
+   ]
 }

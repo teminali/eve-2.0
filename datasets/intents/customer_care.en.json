@@ -29,6 +29,24 @@
          ],
          "context":""
       },
+
+
+
+{
+"tag":"about_company",
+"patterns":[
+"tell me about [company_name]",
+"what is [company_name] all about",
+"give me information about [company_name]",
+"describe [company_name]",
+"what does [company_name] do",
+"what is [company_name]'s mission"
+],
+         "responses":[
+            "[company_description]."
+         ],
+         "context":""
+      },
       {
          "tag":"greeting",
          "patterns":[

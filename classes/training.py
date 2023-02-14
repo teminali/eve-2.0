@@ -30,7 +30,7 @@ class Training:
         self.documents = None
         self.pattern = None
         self.lang = lang
-        data_file = open(f"datasets/intents/customer_care.{lang}.json").read()
+        data_file = open(f"../datasets/intents/customer_care.{lang}.json").read()
         self.intents = json.loads(data_file)['intents']
         self.ignore_words = list("!@#$%^&*?")
         self.process_data()

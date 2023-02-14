@@ -13,8 +13,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 
-from classes.testing import Chatbot
-
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 
@@ -36,6 +34,8 @@ class Training:
         self.intents = json.loads(data_file)['intents']
         self.ignore_words = list("!@#$%^&*?")
         self.process_data()
+
+        print("Training data processed")
 
     def process_data(self):
         # fetch patterns and tokenize into words
@@ -118,8 +118,3 @@ class Training:
 
 # train the model
 Training(lang="en").build()
-
-url = "http://localhost:7000/chatbot_response"
-token = "sky-36a6ac9b-3bf4-444e-90bf-f68e11589391"
-chatbot = Chatbot(url, token)
-chatbot.chat()

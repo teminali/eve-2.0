@@ -30,45 +30,63 @@
          "context":""
       },
       {
-         "tag":"greeting",
+         "tag":"haha",
          "patterns":[
-            "Hey there!",
-            "Hello!",
-            "Hello, there!",
-            "halo",
-            "Hi!",
-            "Good morning!",
-            "Good afternoon!",
-            "Good evening!",
-            "How do you do?",
-            "How are you?",
-            "What's up?",
-            "What's good?",
-            "What's going on?",
-            "What's new?",
-            "How's your day?",
-            "How's it going?",
-            "Greetings!",
-            "Salutations!",
-            "Hiya!",
-            "Hey!",
-            "Yo!",
-            "What's crackin'?"
+            "haha",
+            "lol",
+            "that's funny",
+            "you're hilarious",
+            "hilarious",
+            "ROFL",
+            "LOL",
+            "lmao",
+            "lmfao",
+            "hahaha"
          ],
          "responses":[
-            "Hello! I'm doing well, thank you for asking. How can I help you today?",
-            "Hi there! How can I assist you today?",
-            "Good [time_of_day]. How may I help you today?",
-            "Hey! What's on your mind today?",
-            "Hello! What can I help you with today?",
-            "Hi! Is there anything I can help with today?",
-            "[time_of_day]! How can I assist you today?",
-            "Salutations! What can I help you with today?",
-            "Hiya! What can I help you with today?",
-            "Hey there!, [time_of_day]. How can I be of assistance today?"
+            "Glad to hear you're laughing!",
+            "Laughter is the best medicine!",
+            "Thanks for sharing a laugh with me!",
+            "Humor is an important part of life!",
+            "Laughter is contagious - keep it up!",
+            "I love a good joke!",
+            "You're making me smile!",
+            "Nothing like a good laugh!",
+            "You're cracking me up!",
+            "Ha ha ha!"
          ],
          "context":[
-
+            ""
+         ]
+      },
+      {
+         "tag":"greetings",
+         "patterns":[
+            "hello",
+            "hi",
+            "hey there",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "how are you",
+            "what's up",
+            "yo",
+            "greetings"
+         ],
+         "responses":[
+            "Hello there! How can I help you today?",
+            "Hi! How may I assist you?",
+            "Hey! What can I do for you?",
+            "Good morning! What brings you here today?",
+            "Good afternoon! How may I assist you?",
+            "Good evening! What can I do for you?",
+            "I'm doing well, thank you for asking! How about you?",
+            "Not much, just chatting with you! How about you?",
+            "Yo! What's on your mind?",
+            "Greetings! What can I help you with today?"
+         ],
+         "context":[
+            ""
          ]
       },
       {
@@ -440,43 +458,6 @@
             "The time zone is [time_zone].",
             "We are in the [time_zone] time zone.",
             "Well, the time zone is [time_zone]."
-         ],
-         "context":""
-      },
-      {
-         "tag":"haha",
-         "patterns":[
-            "ha ha",
-            "haha",
-            "hehe",
-            "hahaha",
-            "hehehe",
-            "lol",
-            "rofl",
-            "lmao",
-            "funny",
-            "joke",
-            "laugh",
-            "giggle",
-            "humor",
-            "humorous",
-            "fun",
-            "hilarious",
-            "tickles my funny bone",
-            "belly laugh",
-            "ROFLMAO"
-         ],
-         "responses":[
-            "Glad you found that funny!",
-            "Humor is the best medicine!",
-            "It's always great to bring a smile to someone's face.",
-            "Laughter is contagious, keep it up!",
-            "Nothing like a good laugh to brighten up the day!",
-            "I'm here to bring joy, laughter and smiles!",
-            "Aww, you're too cute!",
-            "Glad I could bring some joy to your day!",
-            "A little laughter goes a long way!",
-            "Keep laughing, it's good for the soul!"
          ],
          "context":""
       },

@@ -10,7 +10,7 @@ while True:
     }
 
     data = {
-        "lang": "sw",
+        "lang": "en",
         "uid": "29066fa8-abbb-4677-8d21-da5f04bbcd43",
         "bot_name": "Eve",
         "user_message": msg,
@@ -38,4 +38,5 @@ while True:
     except requests.exceptions.RequestException as e:
         print("An error occurred:", e)
     except ValueError as e:
+        print(e)
         print("Invalid response from the server:", e)

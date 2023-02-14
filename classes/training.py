@@ -13,6 +13,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 
+from classes.testing import Chatbot
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 
@@ -106,7 +108,7 @@ class Training:
         sgd = SGD(learning_rate=1e-2, decay=1e-6, momentum=0.9, nesterov=True)
         model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
         # fit the model with training input and output sets
-        hist = model.fit(np.array(train_x), np.array(train_y), epochs=1500, batch_size=60, verbose=1)
+        hist = model.fit(np.array(train_x), np.array(train_y), epochs=1100, batch_size=60, verbose=1)
 
         # save the model and words, classes which can be used for prediction
         model.save(f"models/chatbot/{self.lang}/1/eve_model.h5", hist)
@@ -116,3 +118,8 @@ class Training:
 
 # train the model
 Training(lang="en").build()
+
+url = "http://localhost:7000/chatbot_response"
+token = "sky-36a6ac9b-3bf4-444e-90bf-f68e11589391"
+chatbot = Chatbot(url, token)
+chatbot.chat()

@@ -29,25 +29,6 @@
          ],
          "context":""
       },
-
-
-
-{
-"tag":"about_company",
-"patterns":[
-"What is HELSB",
-"tell me about HELSB",
-"what is HELSB all about",
-"give me information about HELSB",
-"describe HELSB",
-"what does HELSB do",
-"what is HELSB's mission"
-],
-         "responses":[
-            "[company_description]"
-         ],
-         "context":""
-      },
       {
          "tag":"greeting",
          "patterns":[

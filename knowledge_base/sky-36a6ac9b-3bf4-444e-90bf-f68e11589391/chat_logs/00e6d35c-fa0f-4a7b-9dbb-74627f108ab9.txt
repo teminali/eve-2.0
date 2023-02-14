@@ -22,3 +22,37 @@
 2023-02-13 15:16:21.735018 - bot: You said hello.
 2023-02-13 15:16:46.500734 - human: What did i say previously
 2023-02-13 15:16:46.500750 - bot: Previously you said hello. Is there anything else I can help you with?
+2023-02-13 16:21:56.156929 - human: hello
+2023-02-13 16:21:56.156941 - bot: Glad I could bring some joy to your day!
+2023-02-13 16:22:09.106708 - human: hi there
+2023-02-13 16:22:09.106721 - bot: Good Good afternoon. How may I help you today?
+2023-02-13 16:22:19.287957 - human: are you human
+2023-02-13 16:22:19.287966 - bot: Using insulting language will not resolve the issue. Can we focus on finding a solution together?
+2023-02-13 16:22:52.417041 - human: what is helsb
+2023-02-13 16:22:52.417051 - bot: The Higher Education Students’ Loans Board (HESLB) is a body corporate established under Act No.9 of 2004 (as amended in 2007, 2014 and 2016) with the objective of assisting needy and eligible Tanzania students to access loans and grants for higher education.
+2023-02-13 16:23:04.931626 - human: i feel bored
+2023-02-13 16:23:04.931636 - bot: How about watching a movie or reading a book to break up the monotony?
+2023-02-13 16:23:14.098831 - human: that will be cool
+2023-02-13 16:23:14.098840 - bot: Surprise can bring joy and excitement! Is there anything else I can assist you with?
+2023-02-13 16:23:35.376426 - human: tis there anything you can help me with
+2023-02-13 16:23:35.376509 - bot: Salutations! What can I help you with today?
+2023-02-13 16:23:47.970973 - human: anything else
+2023-02-13 16:23:47.970983 - bot: Okay, no problem.
+2023-02-13 16:24:32.471489 - human: anything else
+2023-02-13 16:24:32.471499 - bot: Let's find out together, I'm curious myself, about my capabilities
+2023-02-13 16:24:49.837978 - human: are you human
+2023-02-13 16:24:49.837988 - bot: Please let me know how I can assist you without the use of insults.
+2023-02-13 16:25:06.338481 - human: i did not insult you
+2023-02-13 16:25:06.338498 - bot: No worries, I am just a computer program and do not have feelings.
+2023-02-13 16:25:43.645265 - human: i did not insult you
+2023-02-13 16:25:43.645277 - bot: It's okay, let's focus on finding a solution to your problem.
+2023-02-13 16:25:47.922793 - human: i did not insult you
+2023-02-13 16:25:47.922803 - bot: No need to apologize, let's focus on finding a resolution to your issue.
+2023-02-13 16:25:51.601651 - human: i did not insult you
+2023-02-13 16:25:51.601661 - bot: Thanks for the apology, but no harm done. How can I assist you?
+2023-02-13 16:25:56.457995 - human: i did not insult you
+2023-02-13 16:25:56.458007 - bot: No need to apologize, I am here to assist you in any way I can.
+2023-02-13 16:26:03.225911 - human: are you human
+2023-02-13 16:26:03.225922 - bot: I apologize if my responses have not met your needs. How can I improve to better assist you?
+2023-02-14 01:10:26.393329 - human: are you human
+2023-02-14 01:10:26.393342 - bot: Please let me know how I can assist you without the use of insults.

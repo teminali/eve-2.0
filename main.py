@@ -14,7 +14,7 @@ import uvicorn
 
 from classes.funcs import Funcs
 
-# from classes.q2a import BertQuestionAnswering
+from classes.q2a import QuestionAnswering
 
 nltk.download('omw-1.4')
 nltk.download("punkt")
@@ -49,10 +49,10 @@ async def chatbot_response(request: Request):
     industry = data["industry"]
 
     # chat initialization with real data
-    model = load_model(f"models/chatbot/{lang}/1/eve_model.h5")
+    model = load_model(f"models/chatbot/{lang}/2/eve_model.h5")
     intents = json.loads(open(f"datasets/intents/customer_care.{lang}.json").read())
-    words = pickle.load(open(f"models/chatbot/{lang}/1/words.pkl", "rb"))
-    classes = pickle.load(open(f"models/chatbot/{lang}/1/classes.pkl", "rb"))
+    words = pickle.load(open(f"models/chatbot/{lang}/2/words.pkl", "rb"))
+    classes = pickle.load(open(f"models/chatbot/{lang}/2/classes.pkl", "rb"))
     # chat initialization with real data/
 
     try:
@@ -162,7 +162,7 @@ def get_response(
         industry
 ):
     global result
-    # q2a = BertQuestionAnswering(knowledge_base=f'knowledge_base/{token}', uid=uid)
+    q2a = QuestionAnswering(knowledge_base=f'knowledge_base/{token}', uid=uid)
 
     used_model = "margarita"
 
@@ -197,15 +197,13 @@ def get_response(
             if tag == "knowledge_base":
                 used_model = "g2a"
                 print("fetching answer from knowledge base...")
-                error_msg = "Our servers are currently experiencing some delays. We apologize for the inconvenience " \
-                            "and appreciate your patience."
+                # randomize error message
+                error_msg = random.choice(["Sorry, I don't know the answer to that question.",
+                                           "I don't know the answer to that question.",
+                                           "I don't have an answer to that question."])
 
-                if lang == "sw":
-                    error_msg = "Kwa sasa, seva zetu zina ucheleweshaji. Tunasikitika kwa ucheleweshaji huo na tunashukuru " \
-                                "kwa subira yako. "
                 try:
-                    # result = q2a.answer_question(question)
-                    result = error_msg
+                    result = q2a.answer_question(question)
                     if result == "":
                         result = error_msg
                 except Exception as e:

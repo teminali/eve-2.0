@@ -1,6 +1,6 @@
 import os
 import PyPDF2
-import docx
+# import docx
 from transformers import pipeline
 
 
@@ -28,12 +28,12 @@ class QuestionAnswering:
                 for page in pdf_file.pages:
                     text += page.extract_text()
                 return text
-            elif file_path.endswith('.docx'):
-                doc = docx.Document(file_path)
-                text = ''
-                for paragraph in doc.paragraphs:
-                    text += paragraph.text
-                return text
+            # elif file_path.endswith('.docx'):
+            #     doc = docx.Document(file_path)
+            #     text = ''
+            #     for paragraph in doc.paragraphs:
+            #         text += paragraph.text
+            #     return text
             else:
                 raise Exception(f'Unsupported file format: {file_path}')
         except Exception as e:
